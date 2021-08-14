@@ -1,2 +1,9 @@
-# secretsauce
-highly available config storage
+cnfgr
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
