@@ -1,0 +1,16 @@
+:base-url = http://localhost:8081
+
+
+GET :base-url/cache/1234567
+Content-Type: application/json
+
+#
+
+POST :base-url/cache/
+Content-Type: application/json
+{
+    "key": 123456712412341234,
+    "value": {
+        "name": "test"
+    }
+}
